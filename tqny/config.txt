@@ -1,0 +1,15 @@
+{
+# 微信公众号配置
+"app_id": "wx15a1d134b0b5f0bf",
+"app_secret": "68353ad39a45c385cd6de47dcdb77e7b",
+"template_id": "crK6EUc-W1jDNoX05n8OxdtgRnBdERawsCEBpspFkO0",  #  模板id
+"user": ["oM9Kg6hVofJgS1DJR__vVA7fD1bQ","oM9Kg6uUS9OsrNfnLIOqhKiocpas"], # 接收消息的微信号，多个微信用英文逗号间隔，例如["wx1", "wx2"]
+# 信息配置
+"weather_key": "2f573575a35946cfafd747d1c750f81a",
+"region": "惠州市", # 所在地区，可为省，城市，区，县，同时支持国外城市，例如伦敦
+"birthday1": {"name": "九九", "birthday": "2000-08-25"}, # 生日1，姓名和生日，生日若为农历在最前面加上r即可
+"birthday2": {"name": "于鑫", "birthday": "1997-07-21"}, # 生日2，同上
+"love_date": "2022-09-08", # 在一起的日期，暂不支持农历
+"note_ch": "", # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
+"note_en": "" # 金句英文
+}
